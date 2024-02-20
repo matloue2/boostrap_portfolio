@@ -1,24 +1,8 @@
-/*
- * Globals
- */
-
  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
  }
-
- /*
- * Base structure
- */
-
-
-body {
-}
-
-/*
- * Header
- */
 
  .banner-wrap {
   background-image: url("./assets/photo-1605379399642-870262d3d051.avif");
@@ -33,7 +17,7 @@ body {
   height: 100%;
   width: 100%;
   background: black;
-  opacity: 70%;
+  opacity: 80%;
   position: absolute;
   top: 0;
 }
@@ -63,3 +47,6 @@ body {
   transition: all 0.5s;
 }
 
+.btn-secondary {
+  margin-top: 50px;
+  }
